@@ -1,0 +1,28 @@
+-- PRIMEIROS PASSOS NO POSTGRESQL
+
+-- Vamos aprender comandos de:
+-- (1) Seleção;
+-- (2) Ordenação;
+-- (3) Filtragem.
+
+---------------------------------
+
+-- 1. Comando de seleção
+
+-- SELECT: sintaxe
+
+/*
+
+Opção 1:
+select coluna1, coluna2 from tabela;
+
+Opção 2:
+select * from tabela;
+
+*/
+
+----------------------------------
+
+-- Consulta 1: Selecionar a tabela de produtos
+
+select * from products;
